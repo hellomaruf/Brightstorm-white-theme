@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brightstorm learning academic</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700;800&family=Montserrat:wght@300;400;500;600;700;800&family=Phudu&family=Poppins:wght@300;400;500;600;700;800&family=Righteous&family=Roboto+Mono:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navigation section -->
+
+    <nav>
+      <img src="Image/navLogo.png" alt="" srcset="" />
+      <div class="navigation">
+        <ul>
+          <i class="ri-close-fill" id="menu-close"></i>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="course.html">Course</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+        <i class="ri-menu-2-line" id="menu-btn"></i>
+      </div>
+      <div class="search">
+        <input class="searchOption" type="text" placeholder="search" /><i
+          class="ri-search-line"
+        ></i>
+      </div>
+    </nav>
+
+    <!-- Home section.. -->
+
+    <section id="about-home">
+      <h2>Contact Us</h2>
+    </section>
+
+    <section id="contact">
+      <div class="getIn">
+        <h2>Get in Touch</h2>
+        <p>Looking for help? fill the form and start a new adventure.</p>
+        <div class="getIn-details">
+          <h3>Location</h3>
+          <div>
+            <i class="ri-home-5-line" id="geticon"></i>
+            <p>Shodor-Road, amtola, barishal, Bangladesh</p>
+          </div>
+          <h3>Support</h3>
+          <div>
+            <i class="ri-mail-unread-line" id="geticon"></i>
+            <p>
+              brightstormlearning@gmail.com <br />
+              brightstorm@Support.com
+            </p>
+          </div>
+          <h3>Phone</h3>
+          <div>
+            <i class="ri-phone-line" id="geticon"></i>
+            <p>016XXXXXXXXXX <br />018XXXXXXXXXX</p>
+          </div>
+          <h3>Follow Us</h3>
+          <div class="pro-links">
+            <i class="ri-linkedin-box-fill"></i>
+            <i class="ri-facebook-box-fill"></i>
+            <i class="ri-instagram-fill"></i>
+          </div>
+        </div>
+      </div>
+      <div class="form">
+        <h4>Let's Connect</h4>
+        <p>
+          Sometimes, reaching out and taking someone's hand is the beginning of
+          a journey.
+        </p>
+        <div class="form-row">
+          <input type="text" placeholder="Your Name" />
+          <input type="text" placeholder="Email" />
+        </div>
+        <div class="form-col">
+          <input type="text" placeholder="Subject" />
+        </div>
+        <div class="form-col">
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="8"
+            placeholder="How can we help?"
+          ></textarea>
+        </div>
+        <div class="form-col">
+          <button>Send Message</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+      <div class="footer-content">
+        <img src="Image/logowhite.png" alt="" srcset="" />
+        <p>
+          We Develop your Dream.Education is simply the soul of a society as it
+          passes from one generation to another.
+        </p>
+        <div class="icon">
+          <i class="ri-linkedin-box-fill"></i>
+          <i class="ri-facebook-box-fill"></i>
+          <i class="ri-instagram-fill"></i>
+          <i class="ri-youtube-fill"></i>
+        </div>
+      </div>
+
+      <div class="footer-content">
+        <h4>Top Products</h4>
+        <li><a href="#">Manage Reputation</a></li>
+        <li><a href="#">Power tools</a></li>
+        <li><a href="#">Manage Website</a></li>
+        <li><a href="#">Marketing Service</a></li>
+      </div>
+
+      <div class="footer-content">
+        <h4>Quick Links</h4>
+        <li><a href="#">Jobs</a></li>
+        <li><a href="#">Brand Assets</a></li>
+        <li><a href="#">Invest Relations</a></li>
+        <li><a href="#">Terms and Service</a></li>
+      </div>
+
+      <div class="footer-content">
+        <h4>Resource</h4>
+        <li><a href="#">Guides</a></li>
+        <li><a href="#">Research</a></li>
+        <li><a href="#">Expert</a></li>
+        <li><a href="#">Marketing Service</a></li>
+      </div>
+
+      <div class="footer-content">
+        <h4>Features</h4>
+        <li><a href="#">Manage Reputation</a></li>
+        <li><a href="#">Power tools</a></li>
+        <li><a href="#">Manage Website</a></li>
+        <li><a href="#">Marketing Service</a></li>
+      </div>
+    </section>
+
+    <script>
+      $("#menu-btn").click(function () {
+        $("nav .navigation ul").addClass("active");
+      });
+      $("#menu-close").click(function () {
+        $("nav .navigation ul").removeClass("active");
+      });
+    </script>
+  </body>
+</html>
